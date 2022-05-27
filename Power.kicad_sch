@@ -116,7 +116,7 @@
       (reference "D4") (unit 1) (value "LPSR_50-NP") (footprint "LPSR:LPSR_50")
     )
     (path "/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/47faff31-8c53-4245-a72c-2498e0b84a57"
-      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder")
+      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder")
     )
     (path "/a940a0a3-d7f9-4192-a678-cf0db374f0d7/1c795644-2962-48b9-9177-3914463f342e"
       (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")

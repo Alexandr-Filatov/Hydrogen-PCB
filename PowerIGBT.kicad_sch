@@ -1229,7 +1229,7 @@
     (property "Value" "Fuse" (id 1) (at 154.178 85.852 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" (id 2) (at 151.892 85.598 90)
+    (property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder" (id 2) (at 151.892 85.598 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 151.892 83.82 0)
