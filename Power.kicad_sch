@@ -95,10 +95,10 @@
       (reference "#PWR0101") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/cb0f55e2-3db9-424f-95d5-cc3e943c6710/f85b707b-c164-44fe-b6f5-1f0641c164e8"
-      (reference "C3") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C3") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cb0f55e2-3db9-424f-95d5-cc3e943c6710/37fabfff-ba9f-4e77-acca-72151bdd259b"
-      (reference "C7") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C7") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/21fa011f-3e39-469a-b1ec-d5d5d4c8fe7c"
       (reference "C21") (unit 1) (value "100u") (footprint "Capacitor_4pin:C4AE")
@@ -116,7 +116,7 @@
       (reference "D4") (unit 1) (value "LPSR_50-NP") (footprint "LPSR:LPSR_50")
     )
     (path "/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/47faff31-8c53-4245-a72c-2498e0b84a57"
-      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder")
+      (reference "F1") (unit 1) (value "0679L9200-01") (footprint "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder")
     )
     (path "/a940a0a3-d7f9-4192-a678-cf0db374f0d7/1c795644-2962-48b9-9177-3914463f342e"
       (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
@@ -152,7 +152,7 @@
       (reference "L1") (unit 1) (value "L_Small") (footprint "Inductor_My:Wurth")
     )
     (path "/cb0f55e2-3db9-424f-95d5-cc3e943c6710/22a3ce71-a4ae-4cd8-bb34-3bb51cddae6e"
-      (reference "R4") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R4") (unit 1) (value "200") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
   )
 )

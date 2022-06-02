@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\User\Desktop\Проекты\Водород\Power\Power.kicad_sch</source>
+    <date>31.05.2022 15:09:03</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Measurements/" tstamps="/cb0f55e2-3db9-424f-95d5-cc3e943c6710/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Measurements.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerIGBT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connector/" tstamps="/a940a0a3-d7f9-4192-a678-cf0db374f0d7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Connector.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Measurements"/>
+      <property name="Sheetfile" value="Measurements.kicad_sch"/>
+      <sheetpath names="/Measurements/" tstamps="/cb0f55e2-3db9-424f-95d5-cc3e943c6710/"/>
+      <tstamps>f85b707b-c164-44fe-b6f5-1f0641c164e8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Measurements"/>
+      <property name="Sheetfile" value="Measurements.kicad_sch"/>
+      <sheetpath names="/Measurements/" tstamps="/cb0f55e2-3db9-424f-95d5-cc3e943c6710/"/>
+      <tstamps>37fabfff-ba9f-4e77-acca-72151bdd259b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LPSR_50-NP</value>
+      <footprint>LPSR:LPSR_50</footprint>
+      <libsource lib="LPSR" part="LPSR_50-NP" description=""/>
+      <property name="Sheetname" value="Measurements"/>
+      <property name="Sheetfile" value="Measurements.kicad_sch"/>
+      <sheetpath names="/Measurements/" tstamps="/cb0f55e2-3db9-424f-95d5-cc3e943c6710/"/>
+      <tstamps>7f7be97f-733f-436c-b4c0-c678dbfa2bd9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Measurements"/>
+      <property name="Sheetfile" value="Measurements.kicad_sch"/>
+      <sheetpath names="/Measurements/" tstamps="/cb0f55e2-3db9-424f-95d5-cc3e943c6710/"/>
+      <tstamps>22a3ce71-a4ae-4cd8-bb34-3bb51cddae6e</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100u</value>
+      <footprint>Capacitor_4pin:C4AE</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>21fa011f-3e39-469a-b1ec-d5d5d4c8fe7c</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100u</value>
+      <footprint>Capacitor_4pin:C4AE</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>c46e283e-e3df-44dc-a4fd-6cc5d666dd71</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SKM100GB12T4</value>
+      <footprint>IGBT_Modul:SEMITRANS_2</footprint>
+      <libsource lib="" part="SKM100GB12T4_1" description=""/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>8f58cc9e-4244-476f-a43f-ec055cc3eced</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SKM100GB12T4</value>
+      <footprint>IGBT_Modul:SEMITRANS_2</footprint>
+      <libsource lib="" part="SKM100GB12T4_1" description=""/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>e4ea94dd-b10a-4d47-927b-14184d2d74c8</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>47faff31-8c53-4245-a72c-2498e0b84a57</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>OUT+</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>7cbba260-1eb5-42ec-b9b4-6c9a6a6186ea</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>OUT-</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>46fe3d2d-d39e-4e73-8934-5563ad98d56e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>L_OUT</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>9c0b83e8-8298-4325-9132-9670765aecba</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>L_IN</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>b5c1a324-4dd1-46b3-8aca-22f25fe92adb</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>IN+</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>7b5fdb22-8b44-4475-900d-ff824778f40f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>IN-</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>7da5eeb2-b2c2-45ef-81a9-bc22670dd03b</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>L_Small</value>
+      <footprint>Inductor_My:Wurth</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value="PowerIGBT"/>
+      <property name="Sheetfile" value="PowerIGBT.kicad_sch"/>
+      <sheetpath names="/PowerIGBT/" tstamps="/d692a7eb-a41c-4ad0-a59e-6b0579fc3db0/"/>
+      <tstamps>2db12ffd-a91e-4dad-8244-2a19adce8b4c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Connector"/>
+      <property name="Sheetfile" value="Connector.kicad_sch"/>
+      <sheetpath names="/Connector/" tstamps="/a940a0a3-d7f9-4192-a678-cf0db374f0d7/"/>
+      <tstamps>1c795644-2962-48b9-9177-3914463f342e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>+5V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connector"/>
+      <property name="Sheetfile" value="Connector.kicad_sch"/>
+      <sheetpath names="/Connector/" tstamps="/a940a0a3-d7f9-4192-a678-cf0db374f0d7/"/>
+      <tstamps>0bf360fe-d53b-4fba-8e46-9750b65ec503</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Current_Measure</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connector"/>
+      <property name="Sheetfile" value="Connector.kicad_sch"/>
+      <sheetpath names="/Connector/" tstamps="/a940a0a3-d7f9-4192-a678-cf0db374f0d7/"/>
+      <tstamps>fc3ca677-79f2-42b6-a5b3-ff3b18df1d6c</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Voltage_Measure</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Connector"/>
+      <property name="Sheetfile" value="Connector.kicad_sch"/>
+      <sheetpath names="/Connector/" tstamps="/a940a0a3-d7f9-4192-a678-cf0db374f0d7/"/>
+      <tstamps>09b533ac-401b-43c9-8045-1854295ea62d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SKM100GB12T4_1">
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">SKM100GB12T4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="input"/>
+        <pin num="2" name="E2" type="input"/>
+        <pin num="3" name="K1" type="input"/>
+        <pin num="4" name="G1" type="input"/>
+        <pin num="5" name="E1" type="input"/>
+        <pin num="6" name="G2" type="input"/>
+        <pin num="7" name="E2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LPSR" part="LPSR_50-NP">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LPSR_50-NP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT_CURRENT" type="input"/>
+        <pin num="2" name="INPUT_CURRENT" type="input"/>
+        <pin num="3" name="INPUT_CURRENT" type="input"/>
+        <pin num="4" name="INPUT_CURRENT" type="input"/>
+        <pin num="5" name="OUTPUT_CURRENT" type="input"/>
+        <pin num="6" name="OUTPUT_CURRENT" type="input"/>
+        <pin num="7" name="OUTPUT_CURRENT" type="input"/>
+        <pin num="8" name="OUTPUT_CURRENT" type="input"/>
+        <pin num="9" name="+Uc" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="Vout" type="input"/>
+        <pin num="12" name="Vref" type="input"/>
+        <pin num="13" name="OCD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LPSR">
+      <uri>C:/Users/User/Documents/KiCad/6.0/symbols/LPSR.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="9" pinfunction="+Uc" pintype="input"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="2" name="Current_Measure">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D4" pin="10" pinfunction="GND" pintype="input"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="GNDPWR">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="5" name="LPSR_IN">
+      <node ref="D4" pin="1" pinfunction="INPUT_CURRENT" pintype="input"/>
+      <node ref="D4" pin="2" pinfunction="INPUT_CURRENT" pintype="input"/>
+      <node ref="D4" pin="3" pinfunction="INPUT_CURRENT" pintype="input"/>
+      <node ref="D4" pin="4" pinfunction="INPUT_CURRENT" pintype="input"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="6" name="LPSR_OUT">
+      <node ref="D1" pin="1" pinfunction="E1" pintype="input"/>
+      <node ref="D4" pin="5" pinfunction="OUTPUT_CURRENT" pintype="input"/>
+      <node ref="D4" pin="6" pinfunction="OUTPUT_CURRENT" pintype="input"/>
+      <node ref="D4" pin="7" pinfunction="OUTPUT_CURRENT" pintype="input"/>
+      <node ref="D4" pin="8" pinfunction="OUTPUT_CURRENT" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="K1" pintype="input"/>
+      <node ref="D2" pin="2" pinfunction="E2" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="E1" pintype="input"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad11)">
+      <node ref="D4" pin="11" pinfunction="Vout" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Voltage_IN">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="12" name="Voltage_OUT">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(D1-Pad4)">
+      <node ref="D1" pin="4" pinfunction="G1" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(D1-Pad5)">
+      <node ref="D1" pin="5" pinfunction="E1" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(D1-Pad6)">
+      <node ref="D1" pin="6" pinfunction="G2" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(D1-Pad7)">
+      <node ref="D1" pin="7" pinfunction="E2" pintype="input+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(D2-Pad3)">
+      <node ref="D2" pin="3" pinfunction="K1" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(D2-Pad4)">
+      <node ref="D2" pin="4" pinfunction="G1" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(D2-Pad5)">
+      <node ref="D2" pin="5" pinfunction="E1" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(D2-Pad6)">
+      <node ref="D2" pin="6" pinfunction="G2" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(D2-Pad7)">
+      <node ref="D2" pin="7" pinfunction="E2" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(D4-Pad12)">
+      <node ref="D4" pin="12" pinfunction="Vref" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(D4-Pad13)">
+      <node ref="D4" pin="13" pinfunction="OCD" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
